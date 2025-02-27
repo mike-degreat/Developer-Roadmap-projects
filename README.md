@@ -9,7 +9,8 @@ Hands on Project from Beginner to Advanced
         <td>
             <a href="frontend-~projects/01-single-page-cv/">
                     <img src="/Users/user/Desktop/Roadmap Projects/Frontend Projects/01-Single-page-cv/Screenshot 2025-02-27 at 22.27.40.png" alt='single page cv finished'/>
-                </a>
+            </a>
+            <h2><a href='https://roadmap.sh/projects/single-page-cv'>Single Page CV</a></h2>
         </td>
     </tbody>
 </table>
