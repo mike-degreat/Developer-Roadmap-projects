@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A single page CV project">
+    <meta name="description" content="A single page CV Showcasing Michael Okoronu's skills and experience">
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">  
     <meta name="keywords" content="CV, resume, single page, frontend project">
     <meta name="author" content="Michael Okoronu">
     <meta property="og:title" content="Single Page CV">
@@ -11,9 +13,100 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="http://example.com">
     <meta property="og:image" content="http://example.com/image.jpg">
-    <title>Single-page-CV</title>
+    <title>Michael Okoronu | Web Developer | CV</title>
+    <style>
+        :root {
+            color-scheme: light dark;
+        }
+        body {
+            max-width: 50%;
+            margin: 0 auto;
+            border: 3px solid light-dark(black,white);
+            padding: 2rem;
+            margin-top: 15px;
+            font-family: sans-serif;
+        }
+        hr {
+            width: 70%;
+            margin-left: 0;
+            border: 2px solid light-dark(black,white);
+        }
+        h2 {
+            font-size: 1.2rem;
+            color: light-dark(#309041, #50d552);
+        }
+        address {
+            font-style: normal;
+        }
+        section {
+            margin-bottom: 1rem;
+        }
+        ul {
+            list-style-type: square;
+            margin-left: 1rem;
+        }
+        a {
+            color: light-dark(#309041, #50d552);
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        h3 {
+            color: light-dark(#1B72C2, #5ca9FF);
+            font-size: 1rem;
+        }
+    </style>
 </head>
 <body>
-    
+    <header>
+        <hr>
+        <h1>Michael Okoronu</h1>
+        <h2>Junior Frontend Developer</h2>
+        <address>2nd Avenue Gwarinpa, Abuja, Nigeria. <br> +2347037222579 <br> Okoronum@gmail.com</address>
+    </header>
+    <main>
+        <section>
+            <h2>Skills</h2>
+            <p>HTML, CSS, Responsive Web Design, Figma to design, Technical Writing, Presentation</p>
+        </section>
+        <section>
+            <h2>Education</h2>
+            <h3>Federal College of Land resources Technology - Computer Science</h3>
+            <p>January, 2011 - June, 2016</p>
+        </section>
+        <section>
+            <h2>Experience</h2>
+            <h3>Flexisaf Edusoft Limited, Abuja - Program Support Officer</h3>
+            <p>March, 2024 - Till Date</p>
+            <ul>
+                <li>Implemented new processes for the People Success Team, leading to a 10% improvement in overall employee
+                    performance metrics.
+                </li>
+                <li>Monitored employee performance data, providing insights that contributed
+                    to a 25% increase in team efficiency.
+                </li>
+                <li>
+                    Developed and implemented a new employee orientation program, reducing the
+                    time needed to onboard new hires by 20%.
+                </li>
+            </ul>
+            <h3> Flexisaf Edusoft Limited, Abuja - UI/UX Designer</h3>
+            <p>September, 2021 - March. 2024</p>
+            <ul>
+                <li>
+                    Designed and implemented a new user interface for the company’s web application, leading to a 20% increase in user satisfaction.
+                </li>
+                <li>
+                    Conducted user research to identify new product opportunities, leading to a 15% increase in revenue.
+                </li>
+                <li>
+                    Collaborated with the product team to develop new features, resulting in a 10% increase in user engagement.
+                </li>
+            </ul>
+            <h2>Across the Internet</h2>
+            <p>Find me on <a href="
+                https://www.linkedin.com/in/michael-okoronu-0b0b3b1b4/" target="_blank" rel="noopener noreferrer">LinkedIn</a> and <a href="https://github.com/mike-degreat" target="_blank" rel="noopener noreferrer">Github</a></p>
+        </section>
+    </main>
 </body>
 </html>
